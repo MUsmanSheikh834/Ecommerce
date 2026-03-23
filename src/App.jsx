@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from "./Home";
-import Products from "./Products";
-import Cart from "./Cart";
-import Checkout from "./Checkout";
+import Home from "./home";
+import Products from "./products";
+import Cart from "./cart";
+import Checkout from "./checkout";
 import './App.css'; // Make sure this is imported
 
 export default function App() {
